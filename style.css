@@ -29,3 +29,38 @@ h1#left{
     column-gap: 150px;
     margin-top: 30px;
 }
+
+a#group{
+    background-color: green;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+a#teacher, a#auditors{
+    text-decoration: none;
+    color:white;
+    height: 40px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    line-height: 40px;
+}
+
+a#group:hover, a#group:focus{
+    background-color: white;
+    color: black;
+}
+
+a#teacher:hover, a#teacher:focus{
+    background-color: white;
+    color: black;
+}
+
+a#auditors:hover, a#auditors:focus{
+    background-color: white;
+    color: black;
+}
