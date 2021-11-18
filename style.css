@@ -1,0 +1,31 @@
+body{
+    background: url('img/usarbfon.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+
+h1#left{
+    height: 80px;
+    width: 600px;
+    background: white;
+    text-align: center;
+    line-height: 70px;
+    margin-left: 100px;
+}
+
+
+.selector{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin-left: 100px;
+    column-gap: 150px;
+    margin-top: 30px;
+}
