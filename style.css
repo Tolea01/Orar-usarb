@@ -3,6 +3,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .page{
@@ -91,4 +92,26 @@ a#auditors:hover, a#auditors:focus{
     background-color: yellow;
     opacity: 45%;
     color: green;
+}
+
+table, tr, th{
+    border: 1px solid black;
+}
+
+table{
+    background-color: white;
+}
+
+tr#green{
+    background-color: green;
+    color: white;
+}
+
+th#green{
+    background-color: green;
+}
+
+th a{
+    color: white;
+    text-decoration: none;
 }
