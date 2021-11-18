@@ -64,3 +64,31 @@ a#auditors:hover, a#auditors:focus{
     background-color: white;
     color: black;
 }
+
+.selector2{
+    display: grid;
+    grid-template-rows: 40px 100px 40px 40px 40px 300px;
+    margin-top: 30px;
+    width: 600px;
+    margin-left: 100px;
+    grid-row-gap: 20px;
+
+}
+
+.group-selector{
+    display: grid;
+    margin-top: 5px;
+    background: white;
+}
+
+.group-selector a{
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+}
+
+.group-selector a:hover{
+    background-color: yellow;
+    opacity: 45%;
+    color: green;
+}
