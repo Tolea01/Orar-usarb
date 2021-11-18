@@ -115,3 +115,19 @@ th a{
     color: white;
     text-decoration: none;
 }
+
+th#lightgreen{
+    background-color: lightgreen;
+}
+
+th#violet{
+    background-color: violet;
+}
+
+th#pink{
+    background-color: pink;
+}
+
+th#yellow{
+    background-color: yellow;
+}
