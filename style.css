@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .page{
@@ -17,6 +18,7 @@ h1#left{
     height: 80px;
     width: 600px;
     background: white;
+    color: rgb(56, 55, 55);
     text-align: center;
     line-height: 70px;
     margin-left: 100px;
@@ -32,7 +34,7 @@ h1#left{
 }
 
 a#group{
-    background-color: green;
+    background-color: rgb(4, 95, 4);
     height: 40px;
     width: 100px;
     text-align: center;
@@ -46,7 +48,7 @@ a#teacher, a#auditors{
     color:white;
     height: 40px;
     width: 100px;
-    background-color: green;
+    background-color: rgb(4, 95, 4);
     text-align: center;
     line-height: 40px;
 }
@@ -103,12 +105,12 @@ table{
 }
 
 tr#green{
-    background-color: green;
+    background-color: rgb(4, 95, 4);
     color: white;
 }
 
 th#green{
-    background-color: green;
+    background-color: rgb(4, 95, 4);
 }
 
 th a{
@@ -116,24 +118,25 @@ th a{
     text-decoration: none;
 }
 
+
 th#lightgreen{
-    background-color: lightgreen;
+    background-color: rgb(106, 219, 106);
 }
 
 th#violet{
-    background-color: violet;
+    background-color: rgb(184, 18, 184);
 }
 
 th#pink{
-    background-color: pink;
+    background-color: rgb(236, 139, 156);
 }
 
 th#yellow{
-    background-color: yellow;
+    background-color: rgb(228, 228, 17);
 }
 
 th#brown{
-    background-color: brown;
+    background-color: rgb(110, 27, 27);
 }
 
 .bottom-info{
@@ -172,10 +175,81 @@ th#brown{
 }
 
 .link a#green{
-    background-color: green;
+    background-color: rgb(4, 95, 4);
 }
 
 .link a#pink{
     background-color: rgb(255, 81, 110);
+}
+
+
+.right-content img{
+    width: 150px;
+    height: 100px;
+    margin-left: 250px;
+}
+
+.right-content h1#right{
+color: white;
+text-transform: uppercase;
+font-size: 25px;
+font-weight: bold;
+}
+
+.right-table{
+    display: grid;
+    grid-template-columns: 200px 600px;
+    background-color: white;
+    width: 800px;
+    justify-content: center;
+    margin-left: -80px;
+}
+
+.discipline{
+display: grid;
+grid-template-rows: repeat(7,100px);
+}
+
+
+.discipline h3{
+    color: rgb(61, 59, 59);
+    font-weight: bold;
+}
+
+.discipline h4{
+    color: gray;
+}
+
+
+.discipline a{
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.discipline a h4{
+    margin-top: -30px;
+       
+}
+
+.hour{
+    display: grid;
+    grid-template-rows: repeat(7,100px);
+    background-color: rgb(4, 95, 4);
+    
+}
+
+.hour a{
+    border: 1px solid white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 20px;
+    color: white;
+}
+
+.discipline a:hover{
+    background-color: yellow;
+    opacity: 45%;
 }
 
