@@ -131,3 +131,51 @@ th#pink{
 th#yellow{
     background-color: yellow;
 }
+
+th#brown{
+    background-color: brown;
+}
+
+.bottom-info{
+    display: grid;
+    grid-template-rows: 5px;
+    justify-content: center;
+}
+
+.bottom-info h5{
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.link{
+    display: grid;
+    grid-template-columns: 150px 100px 150px 150px;
+    grid-template-rows: 35px;
+    grid-column-gap: 30px;
+    justify-content: center;
+    margin-top: -35px;
+}
+
+.link img{
+    width: 100px;
+    height: 35px;
+    margin-left: -20px;
+    margin-top: px;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+.link a#green{
+    background-color: green;
+}
+
+.link a#pink{
+    background-color: rgb(255, 81, 110);
+}
+
